@@ -3,21 +3,17 @@
 	padding: 0;
 }
 
-<<<<<<< HEAD
 input[type="text"], input[type="password"], input[type="search"] {
 	color: #5d5d5d;
 	width: 60%;
 	padding: 8px;
-
+}
 input, textarea {
 	outline: none;
 	border: none;
 	border: solid 1 px #f2f2f2;
+	
 }
-
-}
-=======
->>>>>>> 235a8673a197b407022a015464f5c9f88c802394
 .header {
 	background-color: darkslateblue;
 	height: 177px;
@@ -86,10 +82,9 @@ ul.menu li a {
 
 	ul.menu li a:hover {
 		color: #e4ec04;
-<<<<<<< HEAD
 	}
 
-	.site_content {
+.site_content {
 		width: 880px;
 		overflow:hidden;
 		margin: 20px auto 0 auto;
@@ -115,6 +110,3 @@ ul.menu li a {
 	background-color: white;
 	cursor: pointer;
 }
-=======
-	}
->>>>>>> 235a8673a197b407022a015464f5c9f88c802394
