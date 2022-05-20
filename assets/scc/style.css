@@ -3,6 +3,7 @@
 	padding: 0;
 }
 
+<<<<<<< HEAD
 input[type="text"], input[type="password"], input[type="search"] {
 	color: #5d5d5d;
 	width: 60%;
@@ -15,6 +16,8 @@ input, textarea {
 }
 
 }
+=======
+>>>>>>> 235a8673a197b407022a015464f5c9f88c802394
 .header {
 	background-color: darkslateblue;
 	height: 177px;
@@ -83,6 +86,7 @@ ul.menu li a {
 
 	ul.menu li a:hover {
 		color: #e4ec04;
+<<<<<<< HEAD
 	}
 
 	.site_content {
@@ -111,3 +115,6 @@ ul.menu li a {
 	background-color: white;
 	cursor: pointer;
 }
+=======
+	}
+>>>>>>> 235a8673a197b407022a015464f5c9f88c802394
