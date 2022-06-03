@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width-device-width" initial-scale="1.0">
-	<title>Главная</title>
+	<title>Интерстеллар</title>
 	<meta name="description" content="Киномонстр - это портал о кино" />
 	<meta name="keywords" content="фильмы, фильмы онлайн, hd" />
 	<link rel="stylesheet" href="assets/scc/style.css">	
@@ -15,13 +15,13 @@
 		<div class="header">
 			<div class="logo">
 				<div class="logo_text">
-					<h1><a href="/">КиноМонстр</a></h1>
+					<h1><a href="index.html">КиноМонстр</a></h1>
 					<h2> Кино - наша страсть!</h2>
 				</div>
 			</div>
 			<div class="menubar">
 				<ul class="menu">
-					<li class="selected"> <a href="#">Главная</a></li>
+					<li class="selected"> <a href="index.html">Главная</a></li>
 					<li><a href="films.html">Фильмы</a></li>
 					<li><a href="#">Сериалы</a></li>
 					<li><a href="rating.html">Рейтинг фильмов</a></li>
@@ -36,6 +36,7 @@
 
 
 		<div class="site_content">
+
 			<div class="sidebar_container">
 
 				<div class="sidebar">
@@ -73,51 +74,49 @@
 				</div>
 			</div>
 			<div class="content">
-				<h1>Новые фильмы</h1>
-				<div class="film_block">
-					<a href="#"><img src="assets/img/matrix.png"></a>
-					<a href="#"><img src="assets/img/max.png"></a>
-					<a href="show.html"><img src="assets/img/inter.png"></a>
-					<a href="#"><img src="assets/img/cloud.png"></a>
+                <h1>Интерстеллар</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qcPfI0y7wRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="info_film_page ">
+                    <span class="label">рейтинг: </span><span class="value">8.1 / 10</span>
+                    <span class="label">год: </span><span class="value">2014</span>
+                    <span class="label">режиссер: </span><span class="value">Кристофер Нолан</span>
+                </div>
+				<hr>
+				<h2>Описание Интерстеллар</h2>
+				<div class="description_film">
+					<img src="assets/img/inter.png">
+					Наше время на Земле подошло к концу, команда исследователей берет на себя самую важную миссию в истории человечества; путешествуя за пределами нашей галактики, чтобы узнать есть ли у человечества будущее среди звезд. Любовь отца к дочери это нечто иное, отличающиеся всех других проявлений любви между людьми. Сцены мерфи с отцом тронули до глубины души. Нолан великий режиссёр. Мы должны думать не о человеке, но о человечестве."
 				</div>
-				<h1>Новые сериалы</h1>
-				<div class="film_block">
-					<a href="#"><img src="assets/img/dead.png"></a>
-					<a href="#"><img src="assets/img/silicon.png"></a>
-					<a href="#"><img src="assets/img/breakingbad.png"></a>
-					<a href="#"><img src="assets/img/xfiles.png"></a>
-				</div>
-				<div class="posts">
-					<hr>
-					<h2> <a href="#">Как снимали Интерстеллар</a></h2>
-					<div class="posts_content">
-						<p>
-							45 лет исполнилось Кристоферу Нолану — одному из самых успешных
-							режиссеров нашего времени, чьи работы одинаково любимы как
-							взыскательными критиками, так и простыми зрителями. Фильмом
-							изначально занималась студия Paramount. Когда Кристофер Нолан занял
-							место режиссера, студия Warner Bros., которая выпускала его последние
-							фильмы, добилась участия в проекте.
-						</p>
+				<hr>
+				<h2>Отзывы об Интерстеллар</h2>
+				<div class="reviews">
+					<div class="review_name">
+						Нурик
 					</div>
-					<p><a href="#">читать</a></p>
-					<hr>
-					<h2><a href="#">Актер Том Хэнкс поделился впечатлением о фестивале.</a></h2>
-					<div class="posts_content">
-						<p>
-							16 февраля в Лондоне состоялась 67-я церемония вручения наград Британской
-							 киноакадемии. Леонардо ДиКаприо, Брэд Питт, Анджелина Джоли, Кейт Бланшетт, Хелен
-							  Миррен, Эми Адамс, Кристиан Бэйл, Альфонсо Куарон и другие гости и победители премии
-							   — в нашем репортаже.
-						</p>
+					<div class="review_text">
+						Фильм супер, но если бы Гоша играл главную роль, то было бы круче в 100 раз.
 					</div>
-					<p><a href="#">читать</a></p>
 				</div>
+				<div class="reviews">
+					<div class="review_name">
+						Сергей Немчинский
+					</div>
+					<div class="review_text">
+						Полностью поддерживаю своего друга Нурика, Гоша красава ваще.
+					</div>
+				</div>
+				<div class="send">
+					<form method="post" action="#" id="review">
+						<input type="text" name="review_name" placeholder="ваше имя">
+						<textarea name="review_text"></textarea>
+						<input type="submit" value="Отправить">
+					</form>
+				</div>		
 			</div>
 		</div>
 		<div class="footer">
 			<p>
-				<a href="#">Главная</a> |
+				<a href="index.html">Главная</a> |
 				<a href="films.html">Фильмы</a> |
 				<a href="#">Сериалы</a> |
 				<a href="rating.html">Рейтинг фильмов </a> |
